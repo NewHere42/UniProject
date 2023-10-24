@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <title>Photo Gallery</title>
+    <style>
+       #login
+        {
+              float: right;
+        }
+        nav
+        {
+            background-color: #00a807;
+           
+            padding: 10px;
+        
+        }
+        nav a
+        {
+            
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover
+        {
+          background-color: navy;
+        }
+        #lj
+        {
+          color: #00a807;
+         }
+        
+         .img-container
+         {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+         }
+         .images
+         {
+            height: 400px;
+            border: 2px grey solid;
+         }
+         .images img
+         {
+            width: 100%;
+            aspect-ratio: 1/1;
+          
+         }
+         </style>
+</head>
+<body>
+    <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
+    <p>Master Of Computer Applications</p>
+    <nav>
+        <a href="home.html" id="home" class="">HOME</a>
+        <a href="about.html" id="about">ABOUT</a>
+        <a href="info.html" id="news">NEWS</a>  
+        <a href="photogallery.html" id="photos">PHOTO GALLERY</a>
+        <a href="timetable.html" id="timeTable">TIME TABLE</a>
+        <a href="login.html" id="login">LOGIN</a> 
+    </nav>
+    <h2>Photo Gallery</h2>
+  <div class="img-container">
+      <div id="i1" class="images">
+        <img src="/Project/images/innovation.jpg">
+        <br>LJ innovation village <br>
+        <a href="#">Read More </a>
+      </div>
+        
+    
+      <div id="i2" class="images">
+        <img src="/Project/images/training.jpg">
+        <br>Corporate training <br>
+        <a href="#">Read More </a>
+      </div>
+
+      <div id="i3" class="images">
+        <img src="/Project/images/teachersDay.jpg">
+        <br>LJ teachers day celeberation <br>
+        <a href="#">Read More </a>
+      </div>
+
+      <div id="i4" class="images">
+        <img src="/Project/images/convocation.jpg">
+        <br>Convocation<br>
+        <a href="#">Read More </a>
+      </div>
+    
+  </div>
+   
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+.common #login
+{
+  float: right;
+  
+}
+.common #lj
+{
+    color:#00a807;
+}
+.common nav
+{
+    background-color: #00a807;
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+.common nav a
+{
+        
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+}
+.common nav a:hover
+{
+    background-color: purple;
+}
+.space
+{
+
+    height: 400px;
+}
+footer
+{
+    width: auto;
+    height: 50px;
+    padding-top: 30px;
+    position: absolute;
+    right:0;
+    left: 0%;
+    bottom: 0;
+    margin-top: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

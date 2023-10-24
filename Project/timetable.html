@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<head>
+ 
+    <title>Time Table</title>
+    <style>
+    #login
+    {
+          float: right;
+    }
+    nav
+    {
+        background-color: #00a807;
+       
+        padding: 10px;
+    
+    }
+    nav a
+    {
+        
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    nav a:hover
+    {
+        background-color: hotpink;
+    }
+    #lj
+    {
+      color:#00a807;
+    }
+    .tt
+    {
+        display: flex;
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    table
+    {
+            border: 4px black outset;
+            border-collapse: collapse;
+            text-align: center;
+            
+            width: 600px;
+            height: 400px;
+    }
+    td,th
+    {
+            border: 1px black solid;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
+    <p>Master Of Computer Applications</p>
+    <nav>
+        <a href="home.html" id="home" class="">HOME</a>
+        <a href="about.html" id="about">ABOUT</a>
+        <a href="info.html" id="news">NEWS</a>  
+        <a href="photogallery.html" id="photos">PHOTO GALLERY</a>
+        <a href="timetable.html" id="timeTable">TIME TABLE</a>
+        <a href="login.html" id="login">LOGIN</a> 
+
+
+    </nav>
+    <h2>TIME TABLE</h1>
+     <div class="tt">
+        <table>
+        <thead>
+            <th>Day/Period</th>
+            <th>I<br> 9:30-10:20</th>
+            <th>II<br> 10:20-11:10</th>
+            <th>III<br>11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>IV<br>12:40-1:30</th>
+            <th>V<br> 1:30-2:20</th>
+            <th>VI<br> 2:20-3:10</th>
+            <th>VII<br> 3:10-4:00</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+
+                <td>Eng</td>
+                <td>Math</td>
+                <td>Chem</td>
+                <td rowspan="6"><strong>L<br>U<br>N<br>C<br>H</strong></td>
+                <td colspan="3">LAB</td>
+                <td>Play</td>
+               
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">LAB</td>
+                <td>Eng </td>
+                <td>Chem</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+               
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                
+                <td>Math</td>
+                <td>Physics</td>
+                <td>Eng</td>
+                <td>Chem</td>
+                <td colspan="3">LIBRARY</td>
+               
+            </tr>
+            <tr>
+                <th>Thursday</th>
+
+                <td>Physics</td>
+                <td>Eng</td>
+                <td>Chem</td>
+                
+                <td colspan="3">LAB</td>
+                <td>Math</td>
+               
+            </tr>
+            <tr>
+                <th>Friday</th>
+
+                <td colspan="3">LAB</td>
+                <td>Math</td>
+                <td>Chem</td>
+                <td>Eng</td>
+                <td>Physics</td>
+               
+            </tr>
+            <tr>
+                <th>Saturday</th>
+
+                <td>Eng</td>
+                <td>Chem</td>
+                <td>Math</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+               
+            </tr>
+        </tbody>
+     </table>
+   </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Login</title>
+    <style>
+        body
+        {
+            background-color: #000629;
+        }
+        
+        #login
+        {
+              float: right;
+        }
+        #p1
+        {
+            color: white;
+        }
+        nav
+        {
+            background-color: #00a807;
+           
+            padding: 10px;
+        
+        }
+        nav a
+        {
+            
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover
+       {
+        background-color: salmon;
+       } 
+        #lj
+        {
+          color: #00a807;
+         }
+         .formDiv 
+         {
+            margin: auto;
+            width: 30%;
+          color: #ffffff;
+            
+         }
+         
+        input 
+         {
+          
+          background-color: #04071b;
+          margin-bottom: 10px;
+          
+         }
+         .text
+         {
+          width: 440px;
+          background-color: #04071b;
+          border: 1px solid black;
+         }
+         #info
+         {
+          width: 440px;
+         }
+         #bio
+         {
+           height: 40px;
+           padding-bottom: 20px;
+         }
+
+    </style>
+</head>
+<body>
+  <div>
+    <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
+    <p id="p1">Master Of Computer Applications</p>
+    <nav>
+        <a href="home.html" id="home" class="">HOME</a>
+        <a href="about.html" id="about">ABOUT</a>
+        <a href="info.html" id="news">NEWS</a>  
+        <a href="photogallery.html" id="photos">PHOTO GALLERY</a>
+        <a href="timetable.html" id="timeTable">TIME TABLE</a>
+        <a href="login.html" id="login">LOGIN</a> 
+    </nav>
+  </div>
+  <div class="formDiv">
+    <h1>Registration Form</h1>
+    <p>Please fill out the form with required info</p>
+     <form>
+        <label for="first-name">Enter your first name:</label><br>
+        <input type="text" id="first-name" class="text"><br>
+
+        <label for="last-name">Enter your last name:</label><br>
+        <input type="text" id="last-name" class="text"><br>
+
+        <label for="email">Enter your Email:</label><br>
+        <input type="text" id="email" class="text"><br>
+
+        <label for="password">Enter your password:</label><br>
+        <input type="text" id="password" class="text"><br>
+
+       <input type="radio" id="personal"> 
+       <label for="personal">Personal A/c</label><br>
+       <input type="radio" id="business">
+       <label for="business">Business A/c</label><br>
+       <input type="checkbox" id="t/c">
+        I accept T/C
+       <hr>
+       <br>
+       <label for="file">Upload a profile picture:</label>
+       <input type="file"  id="file" class="text"><br>
+      
+       <label for="age">Enter your age(years)</label><br>
+      <input type="text" id="age" class="text"><br>
+
+      How did you hear about us?<br>
+       <select id="info" >
+        <option label="(Select one)">
+        <option value="Friend">Friends</option>
+        <option value="Relatives">Relatives</option>
+        
+      </select>
+      <br>
+      <br>
+       Provide a bio: <br>
+       <input type="text" placeholder="I like coding on the beach" id="bio"  class="text">
+     </form>
+  </div>
+</body>
+</html>
