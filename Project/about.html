@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 
-<heead>
+<head>
     <title>About</title>
     <style>
-        #login {
+        .common #login {
             float: right;
         }
 
-        nav {
+        .common nav {
             background-color: #00a807;
             padding: 10px;
 
         }
 
-        nav a {
+        .common nav a {
 
             margin-right: 10px;
             color: white;
             text-decoration: none;
         }
 
-        nav a:hover {
+        .common nav a:hover {
             background-color: blueviolet;
+            border: 2px cyan solid ;
+
         }
 
-        #lj {
+        .common #lj {
             color: #00a807;
         }
     </style>
     </head>
 
     <body>
+    <div class="common">
         <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
         <p>Master Of Computer Applications</p>
         <nav>
@@ -42,6 +45,8 @@
             <a href="login.html" id="login">LOGIN</a>
 
         </nav>
+    </div>
+    <div class="content">   
         <p>
             LJ Group of Institutes is managed by Lok Jagruti Kendra (LJK), a Charitable Trust and a Registered Society
             established in1980 by eminent academicians and visionaries like Prof. B.M. Peerzada, former Dean of Commerce
@@ -61,6 +66,7 @@
             not only having the necessary subject knowledge and skills, but also the empathy towards various
             environmental, social, cultural and other issues affecting the society.
         </p>
+    </div>
     </body>
 
     </html>

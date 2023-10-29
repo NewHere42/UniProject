@@ -4,29 +4,32 @@
   
     <title>Photo Gallery</title>
     <style>
-       #login
+      body
+      {
+        height: 700px;
+      }
+       .common #login
         {
-              float: right;
+          float: right;
         }
-        nav
+        .common nav
         {
             background-color: #00a807;
-           
             padding: 10px;
         
         }
-        nav a
+        .common nav a
         {
-            
             margin-right: 10px;
             color: white;
             text-decoration: none;
         }
-        nav a:hover
+        .common nav a:hover
         {
           background-color: navy;
+          border: 2px yellow solid;
         }
-        #lj
+        .common #lj
         {
           color: #00a807;
          }
@@ -34,24 +37,38 @@
          .img-container
          {
             display: flex;
-            flex-direction: row;
             align-items: center;
             text-align: center;
+            
          }
          .images
          {
-            height: 400px;
-            border: 2px grey solid;
-         }
+          height: 400px;
+          border: 2px grey solid; 
+        }
+
          .images img
          {
             width: 100%;
             aspect-ratio: 1/1;
           
          }
+         .images:hover
+         {  
+          background-color: black;
+          opacity: 50%;
+          color: white;
+
+         }
+         .images a{
+          
+          bottom: 0;
+         }
          </style>
 </head>
 <body>
+
+   <div class="common">
     <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
     <p>Master Of Computer Applications</p>
     <nav>
@@ -62,32 +79,37 @@
         <a href="timetable.html" id="timeTable">TIME TABLE</a>
         <a href="login.html" id="login">LOGIN</a> 
     </nav>
+   </div>
+
     <h2>Photo Gallery</h2>
   <div class="img-container">
       <div id="i1" class="images">
-        <img src="/Project/images/innovation.jpg">
-        <br>LJ innovation village <br>
+        <img src="./images/innovation.jpg">
+        <br>LJ innovation village
+        <br><br><br><br><br><br>
         <a href="#">Read More </a>
       </div>
         
-    
       <div id="i2" class="images">
-        <img src="/Project/images/training.jpg">
-        <br>Corporate training <br>
+        <img src="./images/training.jpg">
+        <br>Corporate training 
+        <br><br><br><br><br><br>
         <a href="#">Read More </a>
       </div>
 
       <div id="i3" class="images">
-        <img src="/Project/images/teachersDay.jpg">
-        <br>LJ teachers day celeberation <br>
+        <img src="./images/teachersDay.jpg">
+        <br>LJ teachers day celeberation 
+        <br><br><br><br><br><br>
         <a href="#">Read More </a>
       </div>
 
       <div id="i4" class="images">
-        <img src="/Project/images/convocation.jpg">
-        <br>Convocation<br>
+        <img src="./images/convocation.jpg">
+        <br>Convocation
+        <br><br><br><br><br><br>
         <a href="#">Read More </a>
-      </div>
+    </div>
     
   </div>
    

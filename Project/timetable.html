@@ -4,18 +4,18 @@
  
     <title>Time Table</title>
     <style>
-    #login
+    .common #login
     {
           float: right;
     }
-    nav
+    .common nav
     {
         background-color: #00a807;
        
         padding: 10px;
     
     }
-    nav a
+    .common nav a
     {
         
         margin-right: 10px;
@@ -25,26 +25,20 @@
     nav a:hover
     {
         background-color: hotpink;
+        border: 2px red solid;
     }
-    #lj
+    .common #lj
     {
       color:#00a807;
     }
-    .tt
-    {
-        display: flex;
-        width: 50%;
-        margin: auto;
-        justify-content: center;
-        
-    }
+    
     table
     {
             border: 4px black outset;
             border-collapse: collapse;
             text-align: center;
-            
-            width: 600px;
+            margin-left: 5%;
+            width: 945px;
             height: 400px;
     }
     td,th
@@ -54,6 +48,7 @@
     </style>
 </head>
 <body>
+    <div class="common">
     <h1 id="lj">LOK JAGRUTI KENDRA UNIVERSITY</h1>
     <p>Master Of Computer Applications</p>
     <nav>
@@ -63,9 +58,9 @@
         <a href="photogallery.html" id="photos">PHOTO GALLERY</a>
         <a href="timetable.html" id="timeTable">TIME TABLE</a>
         <a href="login.html" id="login">LOGIN</a> 
-
-
     </nav>
+   </div>
+
     <h2>TIME TABLE</h1>
      <div class="tt">
         <table>
