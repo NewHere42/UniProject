@@ -69,10 +69,12 @@
          }
          #submit
          {
-          margin-top: 20px;
+          margin-top: 30px;
           margin-left: 80px;
           width: 200px;
-          background-color: gray;
+          background-color: #424242a3;
+          color: white;
+          border: 1px white solid;
          }
     </style>
 </head>
@@ -105,12 +107,13 @@
         <label for="password">Enter your password:</label><br>
         <input type="text" id="password" class="text"><br>
 
-       <input type="radio" id="personal"> 
+       <input type="radio" id="personal" name="acc"> 
        <label for="personal">Personal A/c</label><br>
-       <input type="radio" id="business">
+       <input type="radio" id="business" name="acc">
        <label for="business">Business A/c</label><br>
        <input type="checkbox" id="t/c">
-        I accept T/C
+        <label for="t/c">  I accept T/C</label>
+      
        <hr>
        <br>
        <label for="file">Upload a profile picture:</label>
